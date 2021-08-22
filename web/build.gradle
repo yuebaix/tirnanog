@@ -1,0 +1,27 @@
+version = '1.0.0-SNAPSHOT'
+jar.enabled = false
+bootJar.enabled = true
+
+dependencies {
+    implementation 'org.slf4j:slf4j-api'
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+    implementation 'cn.hutool:hutool-core'
+    implementation 'com.google.guava:guava'
+
+    implementation 'commons-net:commons-net'
+    implementation 'org.apache.commons:commons-collections4'
+
+    implementation 'org.mapstruct:mapstruct'
+    annotationProcessor 'org.mapstruct:mapstruct-processor'
+}
