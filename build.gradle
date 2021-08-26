@@ -7,8 +7,9 @@ buildscript {
         set('springCloudVersion', "2020.0.3")
     }
     repositories {
-        mavenCentral()
+        //mavenCentral()
         //maven { url 'https://oss.sonatype.org/content/groups/public' }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
     }
     dependencies {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
@@ -45,8 +46,9 @@ subprojects {
     }
 
     repositories {
-        mavenCentral()
+        //mavenCentral()
         //maven { url 'https://oss.sonatype.org/content/groups/public' }
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
     }
 
     dependencyManagement {
