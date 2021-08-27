@@ -51,7 +51,7 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: '运营管理系统', icon: 'dashboard' }
     }]
   },
 
@@ -156,6 +156,56 @@ export const constantRoutes = [
       {
         path: 'https://panjiachen.github.io/vue-element-admin-site/#/',
         meta: { title: 'External Link', icon: 'link' }
+      }
+    ]
+  },
+
+  {
+    path: '/user',
+    component: Layout,
+    redirect: '/nested/menu1',
+    name: 'user',
+    meta: {
+      title: '用户管理',
+      icon: 'nested'
+    },
+    children: [
+      {
+        path: 'menu1',
+        component: () => import('@/views/nested/menu1'),
+        name: 'Menu1',
+        meta: { title: '用户管理' }
+      },
+      {
+        path: 'menu2',
+        component: () => import('@/views/nested/menu2'),
+        name: 'Menu2',
+        meta: { title: '系统日志' }
+      }
+    ]
+  },
+
+  {
+    path: '/setting',
+    component: Layout,
+    redirect: '/nested/menu1',
+    name: 'setting',
+    meta: {
+      title: '系统设置',
+      icon: 'nested'
+    },
+    children: [
+      {
+        path: 'menu1',
+        component: () => import('@/views/nested/menu1'),
+        name: 'Menu1',
+        meta: { title: '基础设置' }
+      },
+      {
+        path: 'menu2',
+        component: () => import('@/views/nested/menu2'),
+        name: 'Menu2',
+        meta: { title: '系统日志' }
       }
     ]
   },
