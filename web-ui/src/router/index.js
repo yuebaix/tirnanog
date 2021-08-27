@@ -51,7 +51,7 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard'),
-      meta: { title: '运营管理系统', icon: 'dashboard' }
+      meta: { title: '蒹葭面板', icon: 'dashboard' }
     }]
   },
 
@@ -163,24 +163,99 @@ export const constantRoutes = [
   {
     path: '/user',
     component: Layout,
-    redirect: '/nested/menu1',
+    redirect: '/user/userop',
     name: 'user',
     meta: {
       title: '用户管理',
-      icon: 'nested'
+      icon: 'el-icon-user'
     },
     children: [
       {
-        path: 'menu1',
-        component: () => import('@/views/nested/menu1'),
-        name: 'Menu1',
+        path: 'userop',
+        component: () => import('@/views/user/userop'),
+        name: 'UserOp',
         meta: { title: '用户管理' }
       },
       {
-        path: 'menu2',
-        component: () => import('@/views/nested/menu2'),
-        name: 'Menu2',
-        meta: { title: '系统日志' }
+        path: 'orgop',
+        component: () => import('@/views/user/orgop'),
+        name: 'OrgOp',
+        meta: { title: '组织管理' }
+      }
+    ]
+  },
+
+  {
+    path: '/role',
+    component: Layout,
+    redirect: '/role/roleop',
+    name: 'role',
+    meta: {
+      title: '角色管理',
+      icon: 'el-icon-suitcase\n'
+    },
+    children: [
+      {
+        path: 'roleop',
+        component: () => import('@/views/role/roleop'),
+        name: 'RoleOp',
+        meta: { title: '角色管理' }
+      },
+      {
+        path: 'roleexcept',
+        component: () => import('@/views/role/roleexcept'),
+        name: 'RoleExcept',
+        meta: { title: '角色关系' }
+      }
+    ]
+  },
+
+  {
+    path: '/resource',
+    component: Layout,
+    redirect: '/resource/menu',
+    name: 'resource',
+    meta: {
+      title: '资源管理',
+      icon: 'el-icon-monitor'
+    },
+    children: [
+      {
+        path: 'menu',
+        component: () => import('@/views/resource/menu'),
+        name: 'Menu',
+        meta: { title: '菜单管理' }
+      },
+      {
+        path: 'op',
+        component: () => import('@/views/resource/op'),
+        name: 'Op',
+        meta: { title: '操作管理' }
+      }
+    ]
+  },
+
+  {
+    path: '/content',
+    component: Layout,
+    redirect: '/content/pic',
+    name: 'content',
+    meta: {
+      title: '内容管理',
+      icon: 'el-icon-files'
+    },
+    children: [
+      {
+        path: 'pic',
+        component: () => import('@/views/content/pic'),
+        name: 'Pic',
+        meta: { title: '图床管理' }
+      },
+      {
+        path: 'video',
+        component: () => import('@/views/content/video'),
+        name: 'Video',
+        meta: { title: '媒资管理' }
       }
     ]
   },
@@ -188,24 +263,30 @@ export const constantRoutes = [
   {
     path: '/setting',
     component: Layout,
-    redirect: '/nested/menu1',
+    redirect: '/setting/basic',
     name: 'setting',
     meta: {
       title: '系统设置',
-      icon: 'nested'
+      icon: 'el-icon-setting'
     },
     children: [
       {
-        path: 'menu1',
-        component: () => import('@/views/nested/menu1'),
-        name: 'Menu1',
+        path: 'basic',
+        component: () => import('@/views/setting/basic'),
+        name: 'Basic',
         meta: { title: '基础设置' }
       },
       {
-        path: 'menu2',
-        component: () => import('@/views/nested/menu2'),
-        name: 'Menu2',
-        meta: { title: '系统日志' }
+        path: 'audit',
+        component: () => import('@/views/setting/audit'),
+        name: 'Audit',
+        meta: { title: '审计日志' }
+      },
+      {
+        path: 'tool',
+        component: () => import('@/views/setting/tool'),
+        name: 'Tool',
+        meta: { title: '在线工具' }
       }
     ]
   },
