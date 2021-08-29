@@ -2,6 +2,6 @@ rootProject.name = 'tirnanog'
 include 'core'
 include 'common'
 include 'web'
+include 'javazzz'
 include 'kotlinzzz'
 include 'scalazzz'
-
