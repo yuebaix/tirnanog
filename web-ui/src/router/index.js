@@ -192,7 +192,7 @@ export const constantRoutes = [
     name: 'role',
     meta: {
       title: '角色管理',
-      icon: 'el-icon-suitcase\n'
+      icon: 'el-icon-medal'
     },
     children: [
       {
@@ -206,6 +206,31 @@ export const constantRoutes = [
         component: () => import('@/views/role/roleexcept'),
         name: 'RoleExcept',
         meta: { title: '角色关系' }
+      }
+    ]
+  },
+
+  {
+    path: '/perm',
+    component: Layout,
+    redirect: '/perm/permop',
+    name: 'perm',
+    meta: {
+      title: '权限管理',
+      icon: 'el-icon-magic-stick'
+    },
+    children: [
+      {
+        path: 'permop',
+        component: () => import('@/views/perm/permop'),
+        name: 'PermOp',
+        meta: { title: '权限管理' }
+      },
+      {
+        path: 'permexcept',
+        component: () => import('@/views/perm/permexcept'),
+        name: 'PermExcept',
+        meta: { title: '权限关系' }
       }
     ]
   },
@@ -242,7 +267,7 @@ export const constantRoutes = [
     name: 'content',
     meta: {
       title: '内容管理',
-      icon: 'el-icon-files'
+      icon: 'el-icon-picture-outline'
     },
     children: [
       {
