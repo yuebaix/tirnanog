@@ -1,23 +1,20 @@
 const Mock = require('mockjs')
 
-const data = Mock.mock({
-  'items|30': [{
-    id: '@id',
-    name: 'name',
-    title: '@sentence(10, 20)',
-    'status|1': ['published', 'draft', 'deleted'],
-    author: 'name',
-    display_time: '@datetime',
-    pageviews: '@integer(300, 5000)'
-  }]
-})
-
 module.exports = [
   {
     url: '/user/list',
     type: 'post',
     response: config => {
-      const items = data.items
+      const items = Mock.mock({
+        'items|1-10': [{
+          date: '2016-05-02',
+          name: '@cname',
+          province: '上海',
+          city: '普陀区',
+          address: '上海市普陀区金沙江路 1518 弄',
+          zip: 200333
+        }]
+      }).items
       return {
         code: 20000,
         data: {
