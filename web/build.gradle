@@ -4,14 +4,9 @@ plugins {
     id 'org.springframework.boot' version '2.5.4'
 }
 
-ext {
-    java_version = JavaVersion.VERSION_1_8
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
-    springVersion = '5.3.9'
-    springBootVersion = '2.5.4'
-    springCloudVersion = 'Hoxton.SR12'
+apply from: "${rootDir}/tirnanog-denpendencies.gradle"
 
+ext {
     hutoolVersion = '5.1.5'
     guavaVersion ='29.0-jre'
 
@@ -44,6 +39,10 @@ dependencies {
 
     implementation 'org.mapstruct:mapstruct'
     annotationProcessor 'org.mapstruct:mapstruct-processor'
+
+    implementation project(':core')
+    //implementation 'com.yuebaix:core:0.0.1-SNAPSHOT'
+    //implementation "com.yuebaix:core:${tirnanogCoreVersion}"
 }
 
 dependencyManagement {
