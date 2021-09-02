@@ -46,10 +46,6 @@ dependencies {
 }
 
 dependencyManagement {
-    imports {
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
-    }
-
     dependencies {
         dependency "cn.hutool:hutool-core:${hutoolVersion}"
         dependency "com.google.guava:guava:${guavaVersion}"
