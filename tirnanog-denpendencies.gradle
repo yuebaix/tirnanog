@@ -2,8 +2,8 @@ apply plugin: 'maven-publish'
 apply plugin: "io.spring.dependency-management"
 
 ext {
-    springVersion = '5.3.9'
-    springBootVersion = '2.5.4'
+    springVersion = '5.2.16.RELEASE'
+    springBootVersion = '2.3.12.RELEASE'
     springCloudVersion = 'Hoxton.SR12'
 
     java_version = JavaVersion.VERSION_1_8
