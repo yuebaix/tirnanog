@@ -30,21 +30,21 @@ a sample project for test
 
 ### lang
 
-![Java](http://img.shields.io/badge/-Java-blue?style=flat-square&logo=java&logoColor=white)
-![Sql](http://img.shields.io/badge/-Sql-blue?style=flat-square&logo=Mysql&logoColor=white)
-![Javascript](http://img.shields.io/badge/-Javascript-blue?style=flat-square&logo=javascript&logoColor=white)
-![Html](http://img.shields.io/badge/-Html-blue?style=flat-square&logo=html5&logoColor=white)
-![Css](http://img.shields.io/badge/-Css-blue?style=flat-square&logo=css3&logoColor=white)
-![Sass](http://img.shields.io/badge/-Sass-blue?style=flat-square&logo=sass&logoColor=white)
-![Less](http://img.shields.io/badge/-Less-blue?style=flat-square&logo=less&logoColor=white)
-![Typescript](http://img.shields.io/badge/-Typescript-blue?style=flat-square&logo=typescript&logoColor=white)
-![Shell](http://img.shields.io/badge/-Shell-blue?style=flat-square&logo=gnu-bash&logoColor=white)
-![Scala](http://img.shields.io/badge/-Scala-blue?style=flat-square&logo=scala&logoColor=white)
-![Python](http://img.shields.io/badge/-Python-blue?style=flat-square&logo=python&logoColor=white)
-![Go](http://img.shields.io/badge/-Go-blue?style=flat-square&logo=go&logoColor=white)
-![Markdown](http://img.shields.io/badge/-Markdown-blue?style=flat-square&logo=markdown&logoColor=white)
-![Kotlin](http://img.shields.io/badge/-Kotlin-blue?style=flat-square&logo=kotlin&logoColor=white)
-![Php](http://img.shields.io/badge/-Php-blue?style=flat-square&logo=php&logoColor=white)
+![Java](http://img.shields.io/badge/-Java-e8892f?style=flat-square&logo=java&logoColor=white)
+![Sql](http://img.shields.io/badge/-Sql-00758f?style=flat-square&logo=Mysql&logoColor=white)
+![Javascript](http://img.shields.io/badge/-Javascript-fcd400?style=flat-square&logo=javascript&logoColor=black)
+![Html](http://img.shields.io/badge/-Html-e24c27?style=flat-square&logo=html5&logoColor=white)
+![Css](http://img.shields.io/badge/-Css-2a65f1?style=flat-square&logo=css3&logoColor=white)
+![Sass](http://img.shields.io/badge/-Sass-cc6699?style=flat-square&logo=sass&logoColor=white)
+![Less](http://img.shields.io/badge/-Less-254c7d?style=flat-square&logo=less&logoColor=white)
+![Typescript](http://img.shields.io/badge/-Typescript-3178c6?style=flat-square&logo=typescript&logoColor=white)
+![Shell](http://img.shields.io/badge/-Shell-c9c9c9?style=flat-square&logo=gnu-bash&logoColor=white)
+![Scala](http://img.shields.io/badge/-Scala-dd3734?style=flat-square&logo=scala&logoColor=white)
+![Python](http://img.shields.io/badge/-Python-346e9e?style=flat-square&logo=python&logoColor=white)
+![Go](http://img.shields.io/badge/-Go-69d7e4?style=flat-square&logo=go&logoColor=white)
+![Markdown](http://img.shields.io/badge/-Markdown-white?style=flat-square&logo=markdown&logoColor=black)
+![Kotlin](http://img.shields.io/badge/-Kotlin-7f52ff?style=flat-square&logo=kotlin&logoColor=white)
+![Php](http://img.shields.io/badge/-Php-767bb3?style=flat-square&logo=php&logoColor=white)
 
 ### frame
 
