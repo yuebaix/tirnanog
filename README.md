@@ -11,23 +11,6 @@ a sample project for test
 ![Java](http://img.shields.io/badge/-Java-blue?style=flat-square&logo=java&logoColor=white)
 ![Java](http://img.shields.io/badge/-Java-blue?style=for-the-badge&logo=java&logoColor=white)
 
-![Java](http://img.shields.io/badge/-Java-orange?style=flat-square&logo=java&logoColor=white)
-
-![Javascript](http://img.shields.io/badge/-Javascript-gold?style=flat-square&logo=javascript&logoColor=black)
-
-![Go](http://img.shields.io/badge/-Go-blue?style=flat-square&logo=go&logoColor=white)
-
-![Python](http://img.shields.io/badge/-Python-blue?style=flat-square&logo=python&logoColor=white)
-
-![Php](http://img.shields.io/badge/-Php-cyan?style=flat-square&logo=php&logoColor=black)
-
-![Kotlin](http://img.shields.io/badge/-Kotlin-purple?style=flat-square&logo=kotlin&logoColor=black)
-
-![Scala](http://img.shields.io/badge/-Scala-red?style=flat-square&logo=scala&logoColor=white)
-
-![Sql](http://img.shields.io/badge/-Sql-white?style=flat-square&logo=mysql&logoColor=black)
-
-
 ### lang
 
 ![Java](http://img.shields.io/badge/-Java-e8892f?style=flat-square&logo=java&logoColor=white)
@@ -67,15 +50,15 @@ a sample project for test
 
 ### middleware
 
-![Mysql](http://img.shields.io/badge/-Mysql-00758f?style=flat-square&logo=mysql&logoColor=white)
-![Redis](http://img.shields.io/badge/-Redis-222222?style=flat-square&logo=redis)
+![Mysql](http://img.shields.io/badge/-Mysql-white?style=flat-square&logo=mysql)
+![Redis](http://img.shields.io/badge/-Redis-white?style=flat-square&logo=redis)
 ![MongoDb](http://img.shields.io/badge/-MongoDb-white?style=flat-square&logo=mongodb)
-![RocketMq](http://img.shields.io/badge/-RocketMq-black?style=flat-square&logo=apacherocketmq)
+![RocketMq](http://img.shields.io/badge/-RocketMq-white?style=flat-square&logo=apacherocketmq)
 ![Kafka](http://img.shields.io/badge/-Kafka-white?style=flat-square&logo=apachekafka&logoColor=black)
 ![RabbitMq](http://img.shields.io/badge/-RabbitMq-white?style=flat-square&logo=rabbitmq)
-![Hive](http://img.shields.io/badge/-Hive-black?style=flat-square&logo=apachehive)
+![Hive](http://img.shields.io/badge/-Hive-white?style=flat-square&logo=apachehive)
 ![Spark](http://img.shields.io/badge/-Spark-white?style=flat-square&logo=apachespark)
-![ElasticSearch](http://img.shields.io/badge/-ElasticSearch-black?style=flat-square&logo=elasticsearch&logoColor=white)
+![ElasticSearch](http://img.shields.io/badge/-ElasticSearch-white?style=flat-square&logo=elasticsearch&logoColor=black)
 
 ### workflow
 
@@ -96,6 +79,6 @@ a sample project for test
 
 ### tool
 
-![Travis](http://img.shields.io/badge/-Travis-blue?style=flat-square&logo=travis&logoColor=white)
+![Travis](http://img.shields.io/badge/-Travis-white?style=flat-square&logo=travis)
 
 [comment]: <> (swoole kotlinxcoroutines vgo)
