@@ -67,15 +67,15 @@ a sample project for test
 
 ### middleware
 
-![Mysql](http://img.shields.io/badge/-Mysql-blue?style=flat-square&logo=mysql&logoColor=white)
-![Redis](http://img.shields.io/badge/-Redis-blue?style=flat-square&logo=redis&logoColor=white)
-![MongoDb](http://img.shields.io/badge/-MongoDb-blue?style=flat-square&logo=mongodb&logoColor=white)
-![RocketMq](http://img.shields.io/badge/-RocketMq-blue?style=flat-square&logo=apacherocketmq&logoColor=white)
-![Kafka](http://img.shields.io/badge/-Kafka-blue?style=flat-square&logo=apachekafka&logoColor=white)
-![RabbitMq](http://img.shields.io/badge/-RabbitMq-blue?style=flat-square&logo=rabbitmq&logoColor=white)
-![Hive](http://img.shields.io/badge/-Hive-blue?style=flat-square&logo=apachehive&logoColor=white)
-![Spark](http://img.shields.io/badge/-Spark-blue?style=flat-square&logo=apachespark&logoColor=white)
-![ElasticSearch](http://img.shields.io/badge/-ElasticSearch-blue?style=flat-square&logo=elasticsearch&logoColor=white)
+![Mysql](http://img.shields.io/badge/-Mysql-00758f?style=flat-square&logo=mysql&logoColor=white)
+![Redis](http://img.shields.io/badge/-Redis-222222?style=flat-square&logo=redis)
+![MongoDb](http://img.shields.io/badge/-MongoDb-white?style=flat-square&logo=mongodb)
+![RocketMq](http://img.shields.io/badge/-RocketMq-black?style=flat-square&logo=apacherocketmq)
+![Kafka](http://img.shields.io/badge/-Kafka-white?style=flat-square&logo=apachekafka&logoColor=black)
+![RabbitMq](http://img.shields.io/badge/-RabbitMq-white?style=flat-square&logo=rabbitmq)
+![Hive](http://img.shields.io/badge/-Hive-black?style=flat-square&logo=apachehive)
+![Spark](http://img.shields.io/badge/-Spark-white?style=flat-square&logo=apachespark)
+![ElasticSearch](http://img.shields.io/badge/-ElasticSearch-black?style=flat-square&logo=elasticsearch&logoColor=white)
 
 ### workflow
 
