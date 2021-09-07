@@ -79,20 +79,20 @@ a sample project for test
 
 ### workflow
 
-![Subversion](http://img.shields.io/badge/-Subversion-blue?style=flat-square&logo=subversion&logoColor=white)
-![Git](http://img.shields.io/badge/-Git-blue?style=flat-square&logo=git&logoColor=white)
-![Maven](http://img.shields.io/badge/-Maven-blue?style=flat-square&logo=apachemaven&logoColor=white)
-![Gradle](http://img.shields.io/badge/-Gradle-blue?style=flat-square&logo=gradle&logoColor=white)
-![Npm](http://img.shields.io/badge/-Npm-blue?style=flat-square&logo=npm&logoColor=white)
-![Vgo](http://img.shields.io/badge/-Vgo-blue?style=flat-square&logo=go&logoColor=white)
+![Subversion](http://img.shields.io/badge/-Subversion-white?style=flat-square&logo=subversion)
+![Git](http://img.shields.io/badge/-Git-white?style=flat-square&logo=git)
+![Maven](http://img.shields.io/badge/-Maven-white?style=flat-square&logo=apachemaven&logoColor=bc2043)
+![Gradle](http://img.shields.io/badge/-Gradle-white?style=flat-square&logo=gradle&logoColor=09303a)
+![Npm](http://img.shields.io/badge/-Npm-white?style=flat-square&logo=npm&logoColor=white)
+![Vgo](http://img.shields.io/badge/-Vgo-white?style=flat-square&logo=go)
 
 ### ide
 
-![Eclipse](http://img.shields.io/badge/-Eclipse-blue?style=flat-square&logo=eclipse&logoColor=white)
-![IntelliJ IDEA](http://img.shields.io/badge/-IntelliJ%20IDEA-blue?style=flat-square&logo=intellijidea&logoColor=white)
-![VS Code](http://img.shields.io/badge/-VS%20Code-blue?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Sublime Text](http://img.shields.io/badge/-Sublime%20Text-blue?style=flat-square&logo=sublimetext&logoColor=white)
-![WebStorm](http://img.shields.io/badge/-WebStorm-blue?style=flat-square&logo=webstorm&logoColor=white)
+![Eclipse](http://img.shields.io/badge/-Eclipse-41347e?style=flat-square&logo=eclipse&logoColor=white)
+![IntelliJ IDEA](http://img.shields.io/badge/-IntelliJ%20IDEA-black?style=flat-square&logo=intellijidea&logoColor=white)
+![VS Code](http://img.shields.io/badge/-VS%20Code-black?style=flat-square&logo=visualstudiocode&logoColor=3aa7f2)
+![Sublime Text](http://img.shields.io/badge/-Sublime%20Text-484848?style=flat-square&logo=sublimetext)
+![WebStorm](http://img.shields.io/badge/-WebStorm-black?style=flat-square&logo=webstorm&logoColor=white)
 
 ### tool
 
