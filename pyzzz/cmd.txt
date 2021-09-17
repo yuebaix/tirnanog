@@ -5,3 +5,13 @@ deactivate
 
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+/home/anaconda/bin/conda init && source ~/.bashrc
+conda create -n conda_env python=3.6
+
+conda activate conda_env
+conda install ipykernel
+
+python -m ipykernel install --user --name conda_env --display-name "conda_env"
+jupyter kernelspec list
+
