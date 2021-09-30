@@ -1,8 +1,42 @@
 plugins {
     id 'java'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+}
+
+ext {
+    hutoolVersion = '5.1.5'
+    guavaVersion ='29.0-jre'
+
+    commonsNetVersion = '3.6'
+    commonsCollections4Version = '4.4'
+
+    lombokVersion = '1.18.12'
+    mapstructVersion = '1.3.1.Final'
+}
+
+dependencyManagement {
+    dependencies {
+        dependency "cn.hutool:hutool-core:${hutoolVersion}"
+        dependency "com.google.guava:guava:${guavaVersion}"
+
+        dependency "commons-net:commons-net:${commonsNetVersion}"
+        dependency "org.apache.commons:commons-collections4:${commonsCollections4Version}"
+
+        dependency "org.projectlombok:lombok:${lombokVersion}"
+        dependency "org.mapstruct:mapstruct:${mapstructVersion}"
+        dependency "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+    }
 }
 
 dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.30'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'org.apache.logging.log4j:log4j-to-slf4j:2.11.2'
+    implementation 'org.slf4j:jul-to-slf4j:1.7.30'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
     implementation 'io.projectreactor:reactor-core:3.4.9'
     implementation project(':kotlinzzz')
     implementation project(':scalazzz')
