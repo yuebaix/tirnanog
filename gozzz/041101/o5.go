@@ -20,19 +20,19 @@ func main() {
 	time.Sleep(6 * time.Second)
 }
 
-func action1()  {
+func action1() {
 	fmt.Printf("action1 start --- %s\n", time.Now())
 	time.Sleep(1 * time.Second)
 	fmt.Printf("action1 end --- %s\n", time.Now())
 }
 
-func action2()  {
+func action2() {
 	fmt.Printf("action2 start --- %s\n", time.Now())
 	time.Sleep(2 * time.Second)
 	fmt.Printf("action2 end --- %s\n", time.Now())
 }
 
-func action3()  {
+func action3() {
 	fmt.Printf("action3 start --- %s\n", time.Now())
 	time.Sleep(3 * time.Second)
 	fmt.Printf("action3 end --- %s\n", time.Now())

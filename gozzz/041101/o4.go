@@ -26,11 +26,11 @@ func main() {
 		fmt.Printf("strSlice i %d is str %s\n", i, str)
 	}
 
-	dict := map[string]int {
-		"apple": 1,
+	dict := map[string]int{
+		"apple":      1,
 		"watermelon": 2,
 	}
-	for k,v := range dict{
+	for k, v := range dict {
 		fmt.Printf("dict k %s is v %d\n", k, v)
 	}
 }

@@ -17,9 +17,9 @@ func main() {
 	strSlice = append(strSlice, "ee")
 	fmt.Printf("sliceArr is %+v\n", strSlice)
 
-	var dict = map[string]int {
-		"apple":1,
-		"watermelon":2,
+	var dict = map[string]int{
+		"apple":      1,
+		"watermelon": 2,
 	}
 	fmt.Printf("dic is %+v\n", dict)
 	fmt.Printf("apple is %+v\n", dict["apple"])

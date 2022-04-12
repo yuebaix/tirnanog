@@ -4,10 +4,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
+
 func main() {
 	router := gin.Default()
 	router.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK,"farewell")
+		c.String(http.StatusOK, "farewell")
 	})
 	router.Run()
 }

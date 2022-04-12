@@ -8,14 +8,14 @@ type Shape interface {
 }
 
 type Rect struct {
-	width float64
+	width  float64
 	height float64
 }
 
 func (p *Rect) Area() float64 {
-	return  p.width * p.height
+	return p.width * p.height
 }
-func (p *Rect) Perimeter() float64  {
+func (p *Rect) Perimeter() float64 {
 	return 2 * (p.width + p.height)
 }
 

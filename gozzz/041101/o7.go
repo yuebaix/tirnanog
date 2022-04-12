@@ -22,14 +22,14 @@ func main() {
 	time.Sleep(10 * time.Second)
 }
 
-func produce2()  {
+func produce2() {
 	fmt.Printf("produce start --- %s\n", time.Now())
 	time.Sleep(2 * time.Second)
 	ch2 <- 1
 	fmt.Printf("produce end --- %s\n", time.Now())
 }
 
-func consume2()  {
+func consume2() {
 	fmt.Printf("consume start --- %s\n", time.Now())
 	time.Sleep(1 * time.Second)
 	//i := <- ch
